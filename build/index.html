@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+		<title>Cady</title>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+	</head>
+	<body>
+		<section class="page"><img class="page__bg" src="../assets/img/bg-start.png">
+			<div class="page__container">
+				<div class="logo"><img src="../assets/img/cady-logo.png"></div>
+				<div class="container">
+					<div class="title isAnimate">Der neue Caddy Cargo</div>
+					<div class="subtitle isAnimate">Bereit für alles, was kommt</div>
+					<div class="info isAnimate"> 
+						<div class="info_text">Aktivieren Sie jetzt die Sprachsteuerung, um zum nächsten Feature zu wechseln.</div>
+						<div class="info_triangle"></div>
+					</div>
+					<button class="btn">Jetzt konfigurieren</button>
+					<div class="btn_plus open-modal" data-modal="modal">
+						<div class="plus"></div>
+					</div>
+					<div class="btn_micro"></div>
+					<div class="btn_next"></div>
+					<div class="footer">
+						<div>Abbildung zeigt Sonderausstattung gegen Mehrpreis.</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__modal">
+				<section class="modal page_hidden" id="modal">
+					<div class="modal-container">
+						<div class="modal__action">
+							<div class="btn_close close-modal" data-modal="modal"></div>
+						</div>
+						<div class="modal-container__img"><img src="../assets/img/modal.png"></div>
+						<div class="text">Alles im Blick: Mit den neuen LED Frontscheinwerfern* und LED Rückleuchten* entgeht Ihnen nichts mehr.</div>
+						<button class="btn btn_modal">Jetzt konfigurieren</button>
+					</div>
+				</section>
+			</div>
+		</section>
+		<script src="js/debug-grid-create.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/modal.js"></script>
+	</body>
+</html>
