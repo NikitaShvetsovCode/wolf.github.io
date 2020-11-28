@@ -1,0 +1,47 @@
+@import '../fonts/fonts.less';
+.reset();
+
+.wrapper{
+    .wrapper();
+}
+
+.scrollbar(@color_scrollbar-track, @color_scrollbar-thumb);
+
+@font-face {
+  .font(@font; @fontBold);
+}
+@font-face {
+  .font(@font; @fontRegular);
+}
+
+@font-face {
+  .font(@VWHead; "@{VWHead}-Regular");
+}
+@font-face {
+  .font(@VWHead; "@{VWHead}-Bold");
+}
+@font-face {
+  .font(@VWHead; "@{VWHead}-Light");
+}
+
+@font-face {
+  .font(@arial; @arial);
+}
+
+body {
+  font-family: @arial;
+  background-color: black;
+  color: #fff;
+}
+a, button{
+  cursor: pointer;
+  &:focus{
+      outline: none;
+  }
+}
+input{
+  cursor: text;
+  &:focus{
+      outline: none;
+  }
+}

@@ -1,0 +1,20 @@
+section.page
+    img.page__bg(src="../assets/img/bg-start.png")
+    .page__container
+        .logo
+            img(src="../assets/img/cady-logo.png")
+        .container
+            .title.isAnimate Der neue Caddy Cargo
+            .subtitle.isAnimate Bereit für alles, was kommt
+            .info.isAnimate 
+                .info_text Aktivieren Sie jetzt die Sprachsteuerung, um zum nächsten Feature zu wechseln.
+                .info_triangle
+            button.btn Jetzt konfigurieren
+            .btn_plus.open-modal(data-modal="modal")
+                .plus
+            .btn_micro
+            .btn_next
+            .footer
+                div Abbildung zeigt Sonderausstattung gegen Mehrpreis.
+    .page__modal
+        include modal

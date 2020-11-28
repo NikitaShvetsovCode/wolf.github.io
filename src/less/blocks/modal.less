@@ -1,0 +1,31 @@
+.modal {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    padding: 20px;
+    &-container {
+        text-align: center;
+        &__img {
+           
+        }
+        .text{
+            color: #000;
+            text-align: left;
+        }
+       
+    }
+    &.fadeIn{
+        .animated({
+            .fadeIn();
+            .delay(.2s);
+        });
+    }
+    &.fadeOut{
+        
+    }
+    .animated({
+        .fadeOut();
+    });
+    
+}
